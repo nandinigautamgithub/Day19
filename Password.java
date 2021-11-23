@@ -9,7 +9,7 @@ public class Password {
 	      System.out.println("Enter your password: ");
 	      String password = sc.next();
 	      String regex = "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$";
-	      //Matching the given Email id with regular expression
+	      //Matching the given Password with regular expression
 	      boolean result = password.matches(regex);
 	      if(result) {
 	         System.out.println("Given password is valid");
